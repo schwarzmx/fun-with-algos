@@ -1,7 +1,5 @@
 package schwarzmx.sorting;
 
-import schwarzmx.utils.Utils;
-
 public class InsertionSort implements Sort {
 	
 	public int[] sort(int sequence[]) {
@@ -19,5 +17,9 @@ public class InsertionSort implements Sort {
 		}
 		
 		return sequence;
+	}
+	
+	public String name() {
+		return "Insertion Sort";
 	}
 }

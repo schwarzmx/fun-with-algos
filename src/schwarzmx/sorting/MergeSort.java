@@ -1,7 +1,5 @@
 package schwarzmx.sorting;
 
-import schwarzmx.utils.Utils;
-
 public class MergeSort implements Sort {
 	
 	public int[] sort(int[] sequence) {
@@ -44,6 +42,10 @@ public class MergeSort implements Sort {
 		}
 		
 		return sequence;
+	}
+	
+	public String name() {
+		return "Merge Sort";
 	}
 
 }
